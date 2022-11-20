@@ -11,7 +11,7 @@ public class DemoApplication {
 	
 	@GetMapping("/hello")
 	public String hello() {
-		return "hello, This is my first application deployed in openshift container";
+		return "hello, This is my first application deployed in openshift containers";
 	}
 
 	public static void main(String[] args) {
